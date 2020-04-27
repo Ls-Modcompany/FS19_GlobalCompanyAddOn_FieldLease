@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<l10n>
+	<elements>
+
+		<e k="GlobalCompanyAddOn_FieldLease_gui_leaseheader" v="Farmland lease"/>	
+		<e k="GlobalCompanyAddOn_FieldLease_gui_buy" v="Buy"/>	
+		<e k="GlobalCompanyAddOn_FieldLease_gui_sell" v="Sell"/>	
+		<e k="GlobalCompanyAddOn_FieldLease_gui_lease" v="Lease"/>	
+		<e k="GlobalCompanyAddOn_FieldLease_gui_leaseStop" v="Stop leasing"/>	
+		
+		<e k="GlobalCompanyAddOn_FieldLease_field" v="Field %s"/>	
+		<e k="GlobalCompanyAddOn_FieldLease_state_empty" v="dree"/>	
+		<e k="GlobalCompanyAddOn_FieldLease_state_sold" v="sold"/>	
+		<e k="GlobalCompanyAddOn_FieldLease_state_leased" v="leased"/>	
+	</elements>
+</l10n>

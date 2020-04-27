@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<l10n>
+	<elements>
+
+		<e k="GlobalCompanyAddOn_FieldLease_gui_leaseheader" v="Felder kaufen, verkaufen und pachten"/>	
+		<e k="GlobalCompanyAddOn_FieldLease_gui_buy" v="Kaufen"/>	
+		<e k="GlobalCompanyAddOn_FieldLease_gui_sell" v="Verkaufen"/>	
+		<e k="GlobalCompanyAddOn_FieldLease_gui_lease" v="Pachten"/>	
+		<e k="GlobalCompanyAddOn_FieldLease_gui_leaseStop" v="Pacht auflösen"/>	
+		
+		<e k="GlobalCompanyAddOn_FieldLease_field" v="Feld %s"/>	
+		<e k="GlobalCompanyAddOn_FieldLease_state_empty" v="frei"/>	
+		<e k="GlobalCompanyAddOn_FieldLease_state_sold" v="verkauft"/>	
+		<e k="GlobalCompanyAddOn_FieldLease_state_leased" v="verpachtet"/>	
+
+		<e k="GlobalCompanyAddOn_FieldLease_dialog_1" v="Feld %s für %s kaufen?"/>	
+		<e k="GlobalCompanyAddOn_FieldLease_dialog_2" v="Feld %s für %s verkaufen?"/>	
+		<e k="GlobalCompanyAddOn_FieldLease_dialog_3" v="Feld %s für %s pachten (Pacht/Tag: %s)?"/>	
+		<e k="GlobalCompanyAddOn_FieldLease_dialog_4" v="Pachtvertrag für Feld %s auflösen?"/>	
+
+		<e k="GlobalCompanyAddOn_FieldLease_info_1" v="Gesamtwert gekaufter Felder: %s"/>	
+		<e k="GlobalCompanyAddOn_FieldLease_info_2" v="Pacht/Tag: %s"/>	
+	</elements>
+</l10n>

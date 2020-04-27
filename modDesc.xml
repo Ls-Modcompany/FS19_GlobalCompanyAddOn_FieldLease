@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="44">
+	<author>LS-Modcompany / kevink98</author>
+	
+    <version>1.0.0.0</version>
+    
+	<title>
+        <en>GlobalCompanyAddOn - Field leasing</en>
+        <de>GlobalCompanyAddOn - Felder pachten</de>
+    </title>
+    
+	<description>
+        <en><![CDATA[Global CompanyAddOn - Field leasing
+        
+You don't have enough money for new fields? Then lease them!
+
+For the lease you pay 20% of the regular price of the field once. Then you pay 3% of the regular price of the field every day.
+You can find this function in the GlobalCompany menu. There you can also buy or sell a field or end the lease (it's free).
+
+Important information: Leased fields can be sold in the ingame menu. Therefore you should pay attention to what you sell there.
+
+Information: Mod only playable in combination with GlobalCompany!]]></en>		
+		<de><![CDATA[Global CompanyAddOn - Felder pachten
+
+Du hast zu wenig Geld für neue Felder? Dann pachte sie doch einfach!
+
+Für die Pacht zahlst du einmalig 20% vom regulären Preis des Feldes. Anschließend zahlst du täglich 3% vom regulären Preis des Feldes.
+Die Funktion findest du im GlobalCompany-Menü. Dort kannst du natürlich auch ein Feld kaufen, verkaufen oder die Pacht beenden (ist kostenlos).
+
+Wichtige Information: Gepachtete Felder können im Ingamemenü verkauft werden. Deshalb sollte man drauf achten, was man dort verkauft.
+
+Information: Mod nur in Verbindung mit GlobalCompany spielbar!]]></de>			
+    </description>
+    
+	<iconFilename>globalCompanyAddOn_FieldLease.dds</iconFilename>
+    <multiplayer supported="true"/>
+
+    <globalCompany minimumVersion="1.0.0.0">
+        <customClasses>
+            <customClass name="GC_AddOnFieldLease"/>
+        </customClasses>
+    </globalCompany>
+		
+    <extraSourceFiles>
+        <sourceFile filename="scripts/GC_Checker.lua" />
+        <sourceFile filename="scripts/GC_AddOnFieldLease.lua" />
+    </extraSourceFiles>
+</modDesc>

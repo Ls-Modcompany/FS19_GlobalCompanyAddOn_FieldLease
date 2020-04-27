@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<guiTemplates>
+	<colors>
+		<!--color name="transparent" value="0 0 0 0" /-->
+		
+	</colors>
+
+	<uvs>
+        <uv name="icon_addOnFieldLease_menuIcon" value="0px 0px 1000px 1000px"/>
+	</uvs>
+
+	<templates>
+		<template name="gcBase222">
+			<value name="imageFilename" value="g_baseUIFilename" />
+			<value name="imageUVs" value="colorBg" />
+			<value name="imageUVs_selected" value="colorBg" />
+			<value name="imageUVs_disabled" value="colorBg" />
+			<value name="imageUVs_disabledSelected" value="colorBg" />
+
+			<value name="imageColor" value="image" />
+			<value name="imageColor_disabled" value="image_disabled" />
+			<value name="imageColor_selected" value="image_selected" />
+			<value name="imageColor_disabledSelected" value="image_disabled" />
+
+			<value name="textColor" value="text" />
+			<value name="textColor_disabled" value="text_disabled" />
+			<value name="textColor_selected" value="text_selected" />
+			<value name="imageSize" value="1024 1024" />
+		</template>
+
+		<template name="gcMenuFieldLeaseLayout1" anchor="middleCenter" extends="">
+			<value name="orientation" value="y" />
+			<value name="alignment" value="top" />
+			<value name="size" value="1900px 900px" />
+			<value name="position" value="0px 0px" />
+			<value name="margin" value="0px 0px 0px 0px" />
+		</template>
+		<template name="gcMenuFieldLeaseLayout2" anchor="leftTop" extends="">
+			<value name="orientation" value="x" />
+			<value name="alignment" value="left" />
+			<value name="size" value="930px 35px" />
+			<value name="position" value="0px -50px" />
+			<value name="margin" value="0px 0px 0px 0px" />
+		</template>
+		<template name="gcMenuFieldLeaseLayout3" anchor="middleCenter" extends="">
+			<value name="orientation" value="x" />
+			<value name="alignment" value="middle" />
+			<value name="size" value="930px 900px" />
+			<value name="position" value="0px -50px" />
+			<value name="margin" value="0px 0px 0px 0px" />
+		</template>
+		<template name="gcMenuFieldLeaseLayout4_1" anchor="middleCenter" extends="">
+			<value name="orientation" value="y" />
+			<value name="alignment" value="top" />
+			<value name="size" value="700px 900px" />
+			<value name="position" value="0px 0px" />
+			<value name="margin" value="0px 0px 0px 0px" />
+		</template>
+		<template name="gcMenuFieldLeaseLayout4_2" anchor="middleCenter" extends="">
+			<value name="orientation" value="y" />
+			<value name="alignment" value="center" />
+			<value name="size" value="300px 900px" />
+			<value name="position" value="50px 0px" />
+			<value name="margin" value="0px 0px 0px 0px" />
+		</template>
+		<template name="gcMenuFieldLeaseHeader" anchor="middleCenter" extends="gcBase_text">
+			<value name="textSize" value="25px" />
+			<value name="textAlignment" value="center" />
+			<value name="margin" value="0px 0px 0px 0px" />
+			<value name="textBold" value="true" />
+			<value name="textBold_selected" value="true" />			
+			<value name="textMaxWidth" value="500px"/>
+		</template>
+		<template name="gcMenuFieldLeaseTableLayout" anchor="leftTop" extends="gcBase">
+			<value name="orientation" value="y" />
+			<value name="alignment" value="top" />
+			<value name="size" value="639px 670px" />
+			<value name="position" value="0px -60px" />
+			<value name="maxItemsX" value="1" />
+			<value name="maxItemsY" value="15" />
+			<value name="hasSlider" value="true" />
+		</template>
+		<template name="gcMenuFieldLeaseTableLayout_slider" anchor="rightTop" extends="gcBase">
+			<value name="size" value="20px 670px" />
+			<value name="position" value="0px 0px" />
+			<value name="hasOverlay" value="true" />
+		</template>
+		<template name="gcMenuFieldLeaseTableLayout_slider_overlay" anchor="rightTop" extends="gcMenuFieldLeaseTableLayout_slider">
+			<value name="position" value="0px 0px" />
+			<value name="imageColor" value="buttonMain" />
+			<value name="imageColor_selected" value="gcBlue" />
+		</template>
+
+		<template name="gcMenuFieldLeaseTableHeader" anchor="leftTop" extends="gcBase">
+			<value name="size" value="300px 35px" />
+			<value name="hasOverlay" value="true" />			
+		</template>
+		<template name="gcMenuFieldLeaseTableHeader_button" anchor="leftTop" extends="gcMenuFieldLeaseTableHeader">
+			<value name="position" value="0px 0px" />
+			<value name="hasOverlay" value="true" />			
+			<value name="hasText" value="true" />			
+		</template>
+		<template name="gcMenuFieldLeaseTableHeader_button_overlay" anchor="leftTop" extends="gcMenuFieldLeaseTableHeader_button">
+			<value name="imageColor" value="buttonMain" />
+			<value name="imageColor_selected" value="gcBlue" />
+			<value name="imageColor_disabled" value="transparent" />
+		</template>
+		<template name="gcMenuFieldLeaseTableHeader_button_text" anchor="leftTop" extends="gcMenuFieldLeaseTableHeader_button">
+			<value name="position" value="0px 0px" />
+			<value name="textUpperCase" value="false" />
+			<value name="textAlignment" value="left" />
+			<value name="textSize" value="20px" />
+			<value name="textMargin" value="40px 5px 0px 0px" />
+			<value name="textColor_selected" value="white" />	
+		</template>
+		<template name="gcMenuFieldLeaseTableHeader_overlay" anchor="leftTop" extends="gcMenuFieldLeaseTableHeader">
+			<value name="size" value="20px 20px" />
+			<value name="position" value="10px -9px" />
+			<value name="imageUVs" value="icon_arrowBottom" />
+			<value name="imageColor" value="white" />
+			<value name="imageColor_selected" value="white" />
+			<value name="imageColor_disabled" value="transparent" />
+		</template>
+		<template name="gcMenuFieldLeaseTableLayoutButton" extends="gcBase">
+			<value name="size" value="609px 40px" />
+			<value name="hasOverlay" value="true" />
+			<value name="isActivable" value="true" />
+			<value name="canDeactivable" value="false" />
+			<value name="margin" value="0px 0px 0px 5px" />
+		</template>
+		<template name="gcMenuFieldLeaseTableLayoutButton_overlay" extends="gcMenuFieldLeaseTableLayoutButton">			
+			<value name="imageColor" value="buttonMain" />
+			<value name="imageColor_selected" value="buttonMain" />
+			<value name="imageColor_disabled" value="transparent" />
+			<value name="imageColor_disabledSelected" value="transparent" />
+			<value name="borderLeftSize" value="2px" />
+			<value name="borderRightSize" value="2px" />
+			<value name="borderTopSize" value="2px" />
+			<value name="borderBottomSize" value="2px" />
+			<value name="borderLeftSize_selected" value="2px" />
+			<value name="borderRightSize_selected" value="2px" />
+			<value name="borderTopSize_selected" value="2px" />
+			<value name="borderBottomSize_selected" value="2px" />
+			<value name="borderLeftColor" value="gray2" />
+			<value name="borderRightColor" value="gray2" />
+			<value name="borderTopColor" value="gray2" />
+			<value name="borderBottomColor" value="gray2" />
+			<value name="borderLeftColor_selected" value="gcBlue" />
+			<value name="borderRightColor_selected" value="gcBlue" />
+			<value name="borderTopColor_selected" value="gcBlue" />
+			<value name="borderBottomColor_selected" value="gcBlue" />
+		</template>
+		<template name="gcMenuFieldLeaseTableLayoutButtonText" anchor="leftCenter" extends="gcBase_text">
+			<value name="textSize" value="18px" />
+			<value name="textAlignment" value="left" />			
+			<value name="textBold" value="false" />
+			<value name="textBold_selected" value="true" />	
+		</template>
+		<template name="gcMenuFieldLeaseButton" anchor="leftTop" extends="gcGlobalMarketTableHeader">
+			<value name="position" value="0px 0px" />
+			<value name="size" value="300px 50px" />
+			<value name="hasOverlay" value="true" />			
+			<value name="hasText" value="true" />		
+		</template>
+		<template name="gcMenuFieldLeaseButton_overlay" anchor="leftTop" extends="gcMenuFieldLeaseButton">
+			<value name="imageColor" value="buttonMain" />
+			<value name="imageColor_selected" value="gcBlue" />
+			<value name="imageColor_disabled" value="image_disabled" />
+		</template>
+		<template name="gcMenuFieldLeaseButton_text" anchor="middleCenter" extends="gcMenuFieldLeaseButton">
+			<value name="position" value="0px 0px" />
+			<value name="textUpperCase" value="false" />
+			<value name="textAlignment" value="center" />
+			<value name="textSize" value="20px" />
+			<value name="textMargin" value="0px 5px 0px 0px" />
+			<value name="textColor_selected" value="white" />	
+			<value name="textColor_disabled" value="text_disabled" />	
+		</template>
+		<template name="gcMenuFieldLeaseTextInfo" anchor="leftCenter" extends="gcBase_text">
+			<value name="textSize" value="18px" />
+			<value name="textAlignment" value="left" />			
+			<value name="textBold" value="false" />
+			<value name="textBold_selected" value="true" />	
+		</template>
+	</templates>
+</guiTemplates>

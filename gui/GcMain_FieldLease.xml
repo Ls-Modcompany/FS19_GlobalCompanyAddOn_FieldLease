@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+
+<GUI>
+	<GuiElement type="flowLayout" template="gcMenuFieldLeaseLayout1">   
+		<GuiElement type="text" template="gcMenuFieldLeaseHeader" text="$l10n_GlobalCompanyAddOn_FieldLease_gui_leaseheader" />
+		
+		<GuiElement type="flowLayout" template="gcMenuFieldLeaseLayout3">   
+			<GuiElement type="flowLayout" template="gcMenuFieldLeaseLayout4_1">  
+				<GuiElement type="flowLayout" template="gcMenuFieldLeaseLayout2">   
+					<GuiElement type="tableSort" template="gcMenuFieldLeaseTableHeader" id="gui_tableSort" text="Feld" />
+					<GuiElement type="tableSort" template="gcMenuFieldLeaseTableHeader" margin="3px 0px 0px 0px" id="gui_tableSort" text="Status" />
+				</GuiElement>
+
+				<GuiElement type="table" template="gcMenuFieldLeaseTableLayout" id="gui_fieldList">
+					<GuiElement type="button" template="gcMenuFieldLeaseTableLayoutButton" isTableTemplate="true" onClick="onSelect">				
+						<GuiElement type="text" template="gcMenuFieldLeaseTableLayoutButtonText" position="20px 0px" onCreate="onCreateTextField" />						
+						<GuiElement type="text" template="gcMenuFieldLeaseTableLayoutButtonText" position="323px 0px" onCreate="onCreateTextState" />
+					</GuiElement>
+				</GuiElement>	
+			</GuiElement>
+			<GuiElement type="flowLayout" template="gcMenuFieldLeaseLayout4_2">  
+				<GuiElement type="button" template="gcMenuFieldLeaseButton" margin="0px 0px 0px 10px" onClick="onClickBuy" text="$l10n_GlobalCompanyAddOn_FieldLease_gui_buy" id="gui_btn_buy" />  
+				<GuiElement type="button" template="gcMenuFieldLeaseButton" margin="0px 0px 0px 10px" onClick="onClickSell" text="$l10n_GlobalCompanyAddOn_FieldLease_gui_sell" id="gui_btn_sell" />  
+				<GuiElement type="button" template="gcMenuFieldLeaseButton" margin="0px 0px 0px 10px" onClick="onClickLease" text="$l10n_GlobalCompanyAddOn_FieldLease_gui_lease" id="gui_btn_lease" />  
+				<GuiElement type="button" template="gcMenuFieldLeaseButton" margin="0px 0px 0px 10px" onClick="onClickLeaseStop" text="$l10n_GlobalCompanyAddOn_FieldLease_gui_leaseStop" id="gui_btn_leaseStop" />  
+			
+				<GuiElement type="text" template="gcMenuFieldLeaseTextInfo" margin="0px 100px 0px 20px" id="gui_info_1" />
+				<GuiElement type="text" template="gcMenuFieldLeaseTextInfo" margin="0px 0px 0px 20px" id="gui_info_2" />
+			
+			</GuiElement>
+		</GuiElement>
+		
+	</GuiElement>
+</GUI>
