@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<l10n>
+	<elements>
+
+		<e k="GlobalCompanyAddOn_FieldLease_gui_leaseheader" v="Acquistare, vendere e affittare campi"/>	
+		<e k="GlobalCompanyAddOn_FieldLease_gui_buy" v="Acquistare"/>	
+		<e k="GlobalCompanyAddOn_FieldLease_gui_sell" v="Vendere"/>	
+		<e k="GlobalCompanyAddOn_FieldLease_gui_lease" v="Affittare"/>	
+		<e k="GlobalCompanyAddOn_FieldLease_gui_leaseStop" v="Dissolvere il lease"/>	
+		
+		<e k="GlobalCompanyAddOn_FieldLease_field" v="Campi %s"/>	
+		<e k="GlobalCompanyAddOn_FieldLease_state_empty" v="Disponibile"/>	
+		<e k="GlobalCompanyAddOn_FieldLease_state_sold" v="Venduto"/>	
+		<e k="GlobalCompanyAddOn_FieldLease_state_leased" v="Affittate"/>	
+
+		<e k="GlobalCompanyAddOn_FieldLease_dialog_1" v="Si desidera acquistare il campo %s per %s?"/>	
+		<e k="GlobalCompanyAddOn_FieldLease_dialog_2" v="Si desidera vendere il campo %s per %s?"/>	
+		<e k="GlobalCompanyAddOn_FieldLease_dialog_3" v="Si desidera il campo %s per l'affitto di %s? (Noleggio giornaliero: %s)"/>	
+		<e k="GlobalCompanyAddOn_FieldLease_dialog_4" v="Terminare il noleggio del campo %s?"/>	
+
+		<e k="GlobalCompanyAddOn_FieldLease_info_1" v="Valore totale dei campi acquistati: %s"/>	
+		<e k="GlobalCompanyAddOn_FieldLease_info_2" v="Affitto giornaliero: %s"/>	
+	</elements>
+</l10n>

@@ -9,9 +9,9 @@
 		<e k="GlobalCompanyAddOn_FieldLease_gui_leaseStop" v="Pacht auflösen"/>	
 		
 		<e k="GlobalCompanyAddOn_FieldLease_field" v="Feld %s"/>	
-		<e k="GlobalCompanyAddOn_FieldLease_state_empty" v="frei"/>	
-		<e k="GlobalCompanyAddOn_FieldLease_state_sold" v="verkauft"/>	
-		<e k="GlobalCompanyAddOn_FieldLease_state_leased" v="verpachtet"/>	
+		<e k="GlobalCompanyAddOn_FieldLease_state_empty" v="Frei"/>	
+		<e k="GlobalCompanyAddOn_FieldLease_state_sold" v="Verkauft"/>	
+		<e k="GlobalCompanyAddOn_FieldLease_state_leased" v="Verpachtet"/>	
 
 		<e k="GlobalCompanyAddOn_FieldLease_dialog_1" v="Feld %s für %s kaufen?"/>	
 		<e k="GlobalCompanyAddOn_FieldLease_dialog_2" v="Feld %s für %s verkaufen?"/>	

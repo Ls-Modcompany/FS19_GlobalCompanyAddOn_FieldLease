@@ -1,12 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="44">
+<modDesc descVersion="47">
 	<author>LS-Modcompany / kevink98</author>
 	
     <version>1.0.0.0</version>
     
 	<title>
-        <en>GlobalCompanyAddOn - Field leasing</en>
-        <de>GlobalCompanyAddOn - Felder pachten</de>
+        <en>GlobalCompanyAddOn - Field Leasing</en>
+        <de>GlobalCompanyAddOn - Felder Pachten</de>
+        <es>GlobalCompanyAddOn - Alquiler De Campos</es>
+        <fr>GlobalCompanyAddOn - Location De Champs.</fr>
+        <it>GlobalCompanyAddOn - Noleggio Sul Campi.</it>
     </title>
     
 	<description>
@@ -29,13 +32,42 @@ Die Funktion findest du im GlobalCompany-Menü. Dort kannst du natürlich auch e
 
 Wichtige Information: Gepachtete Felder können im Ingamemenü verkauft werden. Deshalb sollte man drauf achten, was man dort verkauft.
 
-Information: Mod nur in Verbindung mit GlobalCompany spielbar!]]></de>			
-    </description>
+Information: Mod nur in Verbindung mit GlobalCompany spielbar!]]></de>	
+ <es><![CDATA[Global CompanyAddOn - Alquiler de campos 
+ 
+ ¿No tienes suficiente dinero para nuevos campos? ¡Entonces alquilalos! Por el contrato de alquiler, usted paga de entrada el 20% del precio normal del campo, y diariamente, usted pagará el 3% del precio del campo.
+
+  Usted puede encontrar esta función en el menú de GlobalCompany. 
+  Allí también puede comprar o vender los campos e incluso finalizar contratos de alquiler (sin cargos extra). 
+  
+  Información importante: Los campos arrendados se pueden vender en el menú del juego. Por lo tanto, debe prestar atención a lo que vende allí.
+
+  Atención: Este mod sólo es jugable en combinación con GlobalCompany.!]]></es>
+ 
+ <it><![CDATA[Global CompanyAddOn - Noleggio sul campo.. Non hanno abbastanza soldi per nuovi campi?  Allora affittateli! Per il contratto di noleggio, si paga l'ingresso 20% del prezzo normale del campo, e ogni giorno, si pagherà il 3% del prezzo del Campo.
+ È possibile trovare questa funzione nel menu GlobalCompany. 
+ 
+ Ci si può anche acquistare o vendere i campi e anche fine contratti di noleggio (senza costi aggiuntivi). 
+ 
+ Informazioni importanti: campi leased possono essere venduti nel menu di gioco. Pertanto, si dovrebbe prestare attenzione a ciò che si vende lì.
+
+Attenzione: Questo mod è giocabile solo in combinazione con GlobalCompany.!]]></it>
+ 
+ <fr><![CDATA[Global CompanyAddOn - Acheter, vendre et louer des champs Vous n’avez pas assez d’argent pour de nouveaux champs? Alors louez-les !
+ 
+ Pour le contrat de location, vous payez l’entrée 20% du prix normal du champ, et tous les jours, vous paiez 3% du prix de le Champ. 
+ 
+ Vous pouvez trouver cette fonctionnalité dans le menu GlobalCompany. Ici, vous pouvez également acheter ou vendre les champs et même mettre fin aux contrats de location (pas de frais supplémentaires). 
+ 
+ Informations importantes: les champs loués peuvent être vendus dans le menu du jeu. Par conséquent, vous devriez prêter attention à ce que vous y vendez. 
+ 
+ Attention: Ce mod n’est jouable qu’en combinaison avec GlobalCompany.!]]></fr>		
+   </description>
     
 	<iconFilename>globalCompanyAddOn_FieldLease.dds</iconFilename>
     <multiplayer supported="true"/>
 
-    <globalCompany minimumVersion="1.0.0.0">
+    <globalCompany minimumVersion="1.5.0.0">
         <customClasses>
             <customClass name="GC_AddOnFieldLease"/>
         </customClasses>

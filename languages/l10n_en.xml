@@ -2,15 +2,23 @@
 <l10n>
 	<elements>
 
-		<e k="GlobalCompanyAddOn_FieldLease_gui_leaseheader" v="Farmland lease"/>	
+		<e k="GlobalCompanyAddOn_FieldLease_gui_leaseheader" v="Field lease"/>	
 		<e k="GlobalCompanyAddOn_FieldLease_gui_buy" v="Buy"/>	
 		<e k="GlobalCompanyAddOn_FieldLease_gui_sell" v="Sell"/>	
 		<e k="GlobalCompanyAddOn_FieldLease_gui_lease" v="Lease"/>	
-		<e k="GlobalCompanyAddOn_FieldLease_gui_leaseStop" v="Stop leasing"/>	
+		<e k="GlobalCompanyAddOn_FieldLease_gui_leaseStop" v="End leasing"/>	
 		
 		<e k="GlobalCompanyAddOn_FieldLease_field" v="Field %s"/>	
-		<e k="GlobalCompanyAddOn_FieldLease_state_empty" v="dree"/>	
-		<e k="GlobalCompanyAddOn_FieldLease_state_sold" v="sold"/>	
-		<e k="GlobalCompanyAddOn_FieldLease_state_leased" v="leased"/>	
+		<e k="GlobalCompanyAddOn_FieldLease_state_empty" v="Free"/>	
+		<e k="GlobalCompanyAddOn_FieldLease_state_sold" v="Sold"/>	
+		<e k="GlobalCompanyAddOn_FieldLease_state_leased" v="Leased"/>	
+		
+		<e k="GlobalCompanyAddOn_FieldLease_dialog_1" v="Buy field %s for %s?"/>	
+		<e k="GlobalCompanyAddOn_FieldLease_dialog_2" v="Sell field %s for %s?"/>	
+		<e k="GlobalCompanyAddOn_FieldLease_dialog_3" v="Field %s for %s lease (lease/tag: %s)?"/>	
+		<e k="GlobalCompanyAddOn_FieldLease_dialog_4" v="End lease for field %s?"/>	
+
+		<e k="GlobalCompanyAddOn_FieldLease_info_1" v="Total value of purchased fields: %s"/>	
+		<e k="GlobalCompanyAddOn_FieldLease_info_2" v="Lease/day: %s"/>	
 	</elements>
 </l10n>
