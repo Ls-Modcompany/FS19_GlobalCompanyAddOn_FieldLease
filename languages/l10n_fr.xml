@@ -13,8 +13,8 @@
 		<e k="GlobalCompanyAddOn_FieldLease_state_sold" v="Vendu"/>	
 		<e k="GlobalCompanyAddOn_FieldLease_state_leased" v="Loué"/>	
 
-		<e k="GlobalCompanyAddOn_FieldLease_dialog_1" v="Voulez-vous acheter le champ %s pour %s"/>	
-		<e k="GlobalCompanyAddOn_FieldLease_dialog_2" v="Voulez-vous vendre le champ de %s pour %s"/>	
+		<e k="GlobalCompanyAddOn_FieldLease_dialog_1" v="Voulez-vous acheter le champ %s pour %s?"/>	
+		<e k="GlobalCompanyAddOn_FieldLease_dialog_2" v="Voulez-vous vendre le champ de %s pour %s?"/>	
 		<e k="GlobalCompanyAddOn_FieldLease_dialog_3" v="Voulez-vous le champ de %s pour le loyer de %s (Location quotidienne: %s)"/>	
 		<e k="GlobalCompanyAddOn_FieldLease_dialog_4" v="Mettre fin à la location du champ %s?"/>	
 
