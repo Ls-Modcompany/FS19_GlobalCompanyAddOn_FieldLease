@@ -97,7 +97,7 @@ function GC_AddOnFieldLease:buyFarmlandEvent(data, noEventSend)
 	
 	if not g_company.addOnFieldLease.isServer and g_company.addOnFieldLease.isClient then
 		for _, updateable in pairs(self.updateableList) do
-			updateable.update(updateable.target, dt)
+			updateable.loadF(updateable.target, dt)
 		end
 	end
 end
