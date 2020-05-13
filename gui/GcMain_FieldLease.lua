@@ -79,7 +79,7 @@ function Gc_Gui_AddOn_FieldLease:onCreateTextState(element)
 		local posX, posZ = self.currentField:getCenterOfFieldWorldPosition()
 		local farmland = g_farmlandManager:getFarmlandAtWorldPosition(posX, posZ)
 		if farmland.isOwned then
-			if farmland.isLeased then
+			if g_company.addOnFieldLease.leasedMapping[farmland.id] then
 				element:setText(g_company.languageManager:getText("GlobalCompanyAddOn_FieldLease_state_leased"))
 			else
 				element:setText(g_company.languageManager:getText("GlobalCompanyAddOn_FieldLease_state_sold"))
@@ -95,9 +95,9 @@ function Gc_Gui_AddOn_FieldLease:onSelect(element)
 	local posX, posZ = self.currentSelectedField:getCenterOfFieldWorldPosition()
 	local farmland = g_farmlandManager:getFarmlandAtWorldPosition(posX, posZ)
 	self.gui_btn_buy:setDisabled(farmland.isOwned)
-	self.gui_btn_sell:setDisabled((farmland.isOwned == false and g_farmlandManager.farmlandMapping[farmland.id] ~= g_currentMission:getFarmId()) or (farmland.isOwned and farmland.isLeased))
-	self.gui_btn_lease:setDisabled(farmland.isOwned or farmland.isLeased)
-	self.gui_btn_leaseStop:setDisabled(farmland.isOwned == false or farmland.isLeased == false or g_farmlandManager.farmlandMapping[farmland.id] ~= g_currentMission:getFarmId())
+	self.gui_btn_sell:setDisabled((farmland.isOwned == false and g_farmlandManager.farmlandMapping[farmland.id] ~= g_currentMission:getFarmId()) or (farmland.isOwned and g_company.addOnFieldLease.leasedMapping[farmland.id]))
+	self.gui_btn_lease:setDisabled(farmland.isOwned or g_company.addOnFieldLease.leasedMapping[farmland.id])
+	self.gui_btn_leaseStop:setDisabled(farmland.isOwned == false or farmland.isLeased ~= true or g_farmlandManager.farmlandMapping[farmland.id] ~= g_currentMission:getFarmId())
 end
 
 function Gc_Gui_AddOn_FieldLease:onClickBuy()
@@ -164,7 +164,7 @@ function Gc_Gui_AddOn_FieldLease:setInfo()
 	local leased = 0
 	for _, farmland in pairs(g_farmlandManager.farmlands) do
 		if farmland.isOwned then
-			if farmland.isLeased then
+			if g_company.addOnFieldLease.leasedMapping[farmland.id] then
 				leased = leased + (farmland.price * g_company.addOnFieldLease.LEASEFACTORUPKEEP) 
 			else
 				bought = bought + farmland.price
