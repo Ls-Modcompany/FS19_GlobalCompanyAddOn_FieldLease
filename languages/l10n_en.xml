@@ -15,7 +15,7 @@
 		
 		<e k="GlobalCompanyAddOn_FieldLease_dialog_1" v="Buy field %s for %s?"/>	
 		<e k="GlobalCompanyAddOn_FieldLease_dialog_2" v="Sell field %s for %s?"/>	
-		<e k="GlobalCompanyAddOn_FieldLease_dialog_3" v="Field %s for %s lease (lease/tag: %s)?"/>	
+		<e k="GlobalCompanyAddOn_FieldLease_dialog_3" v="Field %s for %s lease (lease/day: %s)?"/>	
 		<e k="GlobalCompanyAddOn_FieldLease_dialog_4" v="End lease for field %s?"/>	
 
 		<e k="GlobalCompanyAddOn_FieldLease_info_1" v="Total value of purchased fields: %s"/>	
