@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<l10n>
+	<elements>
+
+		<e k="GlobalCompanyAddOn_FieldLease_gui_leaseheader" v="Dzierżawa terenu""/>	
+		<e k="GlobalCompanyAddOn_FieldLease_gui_buy" v="Kup"/>	
+		<e k="GlobalCompanyAddOn_FieldLease_gui_sell" v="Sprzedaj"/>	
+		<e k="GlobalCompanyAddOn_FieldLease_gui_lease" v="Dzierżaw"/>	
+		<e k="GlobalCompanyAddOn_FieldLease_gui_leaseStop" v="Zakończ dzierżawę"/>	
+		
+		<e k="GlobalCompanyAddOn_FieldLease_field" v="Pole %s"/>	
+		<e k="GlobalCompanyAddOn_FieldLease_state_empty" v="Bezpłatne"/>	
+		<e k="GlobalCompanyAddOn_FieldLease_state_sold" v="Sprzedane"/>	
+		<e k="GlobalCompanyAddOn_FieldLease_state_leased" v="Wydzierżawione"/>	
+		
+		<e k="GlobalCompanyAddOn_FieldLease_dialog_1" v="Kupić pole %s za %s?"/>	
+		<e k="GlobalCompanyAddOn_FieldLease_dialog_2" v="Sprzedać pole %s za %s?"/>	
+		<e k="GlobalCompanyAddOn_FieldLease_dialog_3" v="Dzierżawić pole %s za %s (dzierżawa/dzień: %s)?"/>	
+		<e k="GlobalCompanyAddOn_FieldLease_dialog_4" v="End lease for field %s?"/>	
+		<e k="GlobalCompanyAddOn_FieldLease_info_1" v="Łączna wartość zakupionych pól: %s"/>	
+		<e k="GlobalCompanyAddOn_FieldLease_info_2" v="Dzierżawa/dzień: %s"/>	
+	</elements>
+</l10n>
